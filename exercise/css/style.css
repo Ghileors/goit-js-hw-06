@@ -1,0 +1,36 @@
+:root {
+  --main-font: ;
+  --main-color: #35c086;
+  --link-color: #158a8c;
+  --change-link-color: #35c086;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--main-color);
+}
+
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--change-link-color);
+}
+
+.repo__link:before {
+  content: "";
+  background-image: url(../images/github.svg);
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
