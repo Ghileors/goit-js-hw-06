@@ -1,7 +1,8 @@
-import users from './users';
+import users from './users.js';
 
 const getUserWithEmail = (users, email) => {
     const user = users.find(user => user.email === email);
+
     return user;
 };
 

@@ -1,4 +1,4 @@
-import users from './users';
+import users from './users.js';
 
 const getUserNames = users => {
     const names = users.map(user => user.name);

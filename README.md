@@ -1,11 +1,11 @@
 # Критерии приема
 
-- Создан репозиторий `goit-js-hw-06`
-- При сдаче домашней работы есть ссылка на исходные файлы в репозитории
-- Все задания выполнены в одном файле, в который импортируется массив
-  пользователей.
-- Имена переменных и функций понятные, описательные
-- Код отформатирован с помощью Prettier
+-   Создан репозиторий `goit-js-hw-06`
+-   При сдаче домашней работы есть ссылка на исходные файлы в репозитории
+-   Все задания выполнены в одном файле, в который импортируется массив
+    пользователей.
+-   Имена переменных и функций понятные, описательные
+-   Код отформатирован с помощью Prettier
 
 # ТЗ
 
@@ -19,7 +19,7 @@
 
 ```js
 const getUserNames = users => {
-  // твой код
+    // твой код
 };
 
 console.log(getUserNames(users));
@@ -32,7 +32,7 @@ console.log(getUserNames(users));
 
 ```js
 const getUsersWithEyeColor = (users, color) => {
-  // твой код
+    // твой код
 };
 
 console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
@@ -44,7 +44,7 @@ console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley
 
 ```js
 const getUsersWithGender = (users, gender) => {
-  // твой код
+    // твой код
 };
 
 console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
@@ -56,7 +56,7 @@ console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazq
 
 ```js
 const getInactiveUsers = users => {
-  // твой код
+    // твой код
 };
 
 console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
@@ -68,7 +68,7 @@ console.log(getInactiveUsers(users)); // [объект Moore Hensley, объек
 
 ```js
 const getUserWithEmail = (users, email) => {
-  // твой код
+    // твой код
 };
 
 console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
@@ -82,7 +82,7 @@ console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {объект п
 
 ```js
 const getUsersWithAge = (users, min, max) => {
-  // твой код
+    // твой код
 };
 
 console.log(getUsersWithAge(users, 20, 30)); // [объект Ross Vazquez, объект Elma Head, объект Carey Barr]
@@ -97,7 +97,7 @@ console.log(getUsersWithAge(users, 30, 40));
 
 ```js
 const calculateTotalBalance = users => {
-  // твой код
+    // твой код
 };
 
 console.log(calculateTotalBalance(users)); // 20916
@@ -109,7 +109,7 @@ console.log(calculateTotalBalance(users)); // 20916
 
 ```js
 const getUsersWithFriend = (users, friendName) => {
-  // твой код
+    // твой код
 };
 
 console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
@@ -123,7 +123,7 @@ console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sher
 
 ```js
 const getNamesSortedByFriendsCount = users => {
-  // твой код
+    // твой код
 };
 
 console.log(getNamesSortedByFriendsCount(users));
@@ -138,7 +138,7 @@ console.log(getNamesSortedByFriendsCount(users));
 
 ```js
 const getSortedUniqueSkills = users => {
-  // твой код
+    // твой код
 };
 
 console.log(getSortedUniqueSkills(users));
