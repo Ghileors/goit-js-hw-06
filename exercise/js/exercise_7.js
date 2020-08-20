@@ -1,12 +1,7 @@
 import users from './users.js';
 
 const calculateTotalBalance = users => {
-    const totalUsersBalance = users.reduce(
-        (totalBalance, money) => totalBalance + money.balance,
-        0,
-    );
-
-    return totalUsersBalance;
+    return users.reduce((acc, value) => acc + value.balance, 0);
 };
 
 console.log(calculateTotalBalance(users)); // 20916

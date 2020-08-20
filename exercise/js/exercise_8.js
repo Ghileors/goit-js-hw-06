@@ -1,10 +1,9 @@
 import users from './users.js';
 
 const getUsersWithFriend = (users, friendName) => {
-    const foundFriends = users
-        .filter(users => users.friends.includes(friendName))
-        .map(users => users.name);
-    return foundFriends;
+    return users
+        .filter(user => user.friends.includes(friendName))
+        .map(user => user.name);
 };
 
 console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
